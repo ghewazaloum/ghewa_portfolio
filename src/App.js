@@ -8,6 +8,7 @@ import { PiFileHtml } from "react-icons/pi";
 import wadiMed from './Assests/Images/wadiMed.png' ;
 import portfolio from './Assests/Images/portfolio.png' ;
 import bear from './Assests/Images/bear.png' ;
+import sneakPeak from './Assests/Images/sneakPeak.png' ;
 
 function App() {
   return (
@@ -45,6 +46,15 @@ function App() {
       <ContainerWithImage2>
         <HeadingWithoutIcon>work</HeadingWithoutIcon>
         <CardContainer>
+           <WorkCard>
+              <div className='imageDiv'>
+                <img className='image' src={sneakPeak} alt='sneakPeak online shop'/>
+              </div>
+              <h4>sneakPeak online shop</h4>
+              <div className='workButtons'>
+                <Button href={"https://github.com/ghewazaloum/shoes.git"}>github</Button>
+            </div>
+            </WorkCard>
             <WorkCard>
               <div className='imageDiv'>
                 <img className='image' src={wadiMed} alt='alwadi medical center'/>
