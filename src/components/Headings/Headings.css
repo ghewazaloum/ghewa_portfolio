@@ -1,0 +1,46 @@
+.heading{
+    font-size: 40px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+}
+.HeadingWithoutIcon{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    animation-name: heading;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes heading {
+    0% {color: var(--color-Primary);}
+    50% {color: white;letter-spacing:3px;}
+    100% {color: var(--color-Primary);}
+}
+.headingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    flex-wrap: wrap;
+}
+.headingContainer svg{
+    height: 100%;
+    width: 60px;
+
+}
+.cls-1{
+    fill: white;
+    animation-name: path;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes path {
+    0% {fill: var(--color-Primary);}
+    50% {fill: white;}
+    100% {fill: var(--color-Primary);}
+}

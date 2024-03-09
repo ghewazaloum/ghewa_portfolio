@@ -1,0 +1,8 @@
+
+.App{
+    height: 100vh;
+}
+.circlediv{
+    background-color: aqua;
+    box-shadow: 100px 100px  10px 0 green !important;
+}

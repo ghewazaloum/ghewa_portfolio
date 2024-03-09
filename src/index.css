@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+  font-family: 'Playfair Display', serif;
+  background-color: #ffffff;
+
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --color-Primary:#f8f87a;
+  --color-Secondary:#fafaa0;
+  --color-Strong:#ffff55;
+}
+::-webkit-scrollbar{display: none;}

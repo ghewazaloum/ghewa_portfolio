@@ -1,0 +1,27 @@
+.shape{
+    width: 400px;
+    height: 400px;
+    background-image:radial-gradient(circle,var(--color-Strong) 150px,white) ;
+    clip-path: circle(40% at bottom right  );
+    z-index: 0;
+
+}
+.shape_animation{
+    animation-name: shape;
+    animation-duration: 1s;
+    animation-delay: 0s;
+
+}
+@keyframes shape {
+    0%{translate : 100px}
+    100% {translate :0px}
+}
+
+
+.shapeContainer{
+    filter: drop-shadow(-2px -2px 5px var(--color-Strong));
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
