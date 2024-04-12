@@ -5,10 +5,7 @@ import { FaGithub ,FaBootstrap ,FaReact } from "react-icons/fa";
 import { TbFileTypeCss} from "react-icons/tb"; 
 import { IoLogoJavascript } from "react-icons/io5";
 import { PiFileHtml } from "react-icons/pi";
-import wadiMed from './Assests/Images/wadiMed.png' ;
-import portfolio from './Assests/Images/portfolio.png' ;
-import bear from './Assests/Images/bear.png' ;
-import sneakPeak from './Assests/Images/sneakPeak.png' ;
+
 
 function App() {
   return (
@@ -48,7 +45,7 @@ function App() {
         <CardContainer>
            <WorkCard>
               <div className='imageDiv'>
-                <img className='image' src={sneakPeak} alt='sneakPeak online shop'/>
+                <img className='image' src="https://i.ibb.co/jRJLfgM/sneak-Peak.png" alt='sneakPeak online shop'/>
               </div>
               <h4>sneakPeak online shop</h4>
               <div className='workButtons'>
@@ -57,7 +54,7 @@ function App() {
             </WorkCard>
             <WorkCard>
               <div className='imageDiv'>
-                <img className='image' src={wadiMed} alt='alwadi medical center'/>
+                <img className='image' src="https://i.ibb.co/zFf3fsy/wadiMed.png" alt='alwadi medical center'/>
               </div>
               <h4>alWadi medical center web app</h4>
               <div className='workButtons'>
@@ -67,7 +64,7 @@ function App() {
             </WorkCard>
             <WorkCard>
               <div className='imageDiv'>
-                <img className='image' src={portfolio} alt='portfolio'/>
+                <img className='image' src="https://i.ibb.co/85XHJCg/portfolio.png" alt='portfolio'/>
               </div>
               <h4>Portfolio</h4>
               <div className='workButtons'>
@@ -76,7 +73,7 @@ function App() {
             </WorkCard>
             <WorkCard>
               <div className='imageDiv'>
-                <img className='image' src={bear} alt='bear'/>
+                <img className='image' src="https://i.ibb.co/VvS3PF5/bear.png" alt='bear'/>
               </div>
               <h4>Bear social media app</h4>
               <div className='workButtons'>

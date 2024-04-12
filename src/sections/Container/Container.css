@@ -15,7 +15,7 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom,#181616d5 30%,transparent),
-    url('../../Assests/Images/skills.jpg');
+    url("https://i.ibb.co/znzgKt9/skills.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left 20%;
@@ -40,7 +40,7 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to bottom,#181616d5 30%,transparent),
-    url('../../Assests/Images/work.jpg');
+    url("https://i.ibb.co/mvMGNyc/work.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left 20%;

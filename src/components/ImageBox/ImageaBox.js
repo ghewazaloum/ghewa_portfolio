@@ -1,9 +1,8 @@
-import ghewa from '../../Assests/Images/ghewa.png'
 import './ImageBox.css';
 function ImageBox(){
     return(
         <div className="image-box">
-            <img src={ghewa} alt="ghewa zaloum"/>
+            <img src="https://i.ibb.co/RQKMpQV/ghewa.png" alt="ghewa zaloum"/>
         </div>
     );
 }
