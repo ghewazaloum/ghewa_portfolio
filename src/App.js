@@ -5,6 +5,8 @@ import { FaGithub ,FaBootstrap ,FaReact } from "react-icons/fa";
 import { TbFileTypeCss} from "react-icons/tb"; 
 import { IoLogoJavascript } from "react-icons/io5";
 import { PiFileHtml } from "react-icons/pi";
+import { SiStyledcomponents ,SiMui ,SiRedux} from "react-icons/si";
+
 
 
 function App() {
@@ -20,15 +22,16 @@ function App() {
       <ContainerWithImage>
           <Headings>skills</Headings>
           <CardContainer>
-           <Cards skill='Javascript'><IoLogoJavascript /></Cards>
+            <Cards skill='React.js'><FaReact/></Cards>
+            <Cards skill='Javascript'><IoLogoJavascript /></Cards>
+            <Cards skill='Redux'><SiRedux/></Cards>
             <Cards skill='CSS'><TbFileTypeCss/></Cards>
             <Cards skill='Bootstrap'><FaBootstrap/></Cards>
-            <Cards skill='JavaScript'><IoLogoJavascript/></Cards>
+            <Cards skill='Material UI'><SiMui/></Cards>
+            <Cards skill='styled component'><SiStyledcomponents/></Cards>
             <Cards skill='Tailwind css'><TbFileTypeCss/></Cards>
-            <Cards skill='React JS'><FaReact/></Cards>
             <Cards skill='Git'><FaGithub/></Cards>
             <Cards skill='HTML'><PiFileHtml /></Cards>
-
            </CardContainer>
       </ContainerWithImage>
       <Container>
