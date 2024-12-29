@@ -5,7 +5,7 @@ import { FaGithub ,FaBootstrap ,FaReact } from "react-icons/fa";
 import { TbFileTypeCss} from "react-icons/tb"; 
 import { IoLogoJavascript } from "react-icons/io5";
 import { PiFileHtml } from "react-icons/pi";
-import { SiStyledcomponents ,SiMui ,SiRedux} from "react-icons/si";
+import { SiStyledcomponents ,SiMui ,SiRedux, SiTypescript} from "react-icons/si";
 
 
 
@@ -24,6 +24,7 @@ function App() {
           <CardContainer>
             <Cards skill='React.js'><FaReact/></Cards>
             <Cards skill='Javascript'><IoLogoJavascript /></Cards>
+            <Cards skill='typescript'><SiTypescript /></Cards>
             <Cards skill='Redux'><SiRedux/></Cards>
             <Cards skill='CSS'><TbFileTypeCss/></Cards>
             <Cards skill='Bootstrap'><FaBootstrap/></Cards>
@@ -46,6 +47,21 @@ function App() {
       <ContainerWithImage2>
         <HeadingWithoutIcon>work</HeadingWithoutIcon>
         <CardContainer>
+        <WorkCard>
+              <div className='imageDiv'>
+                <img className='image' src="https://i.ibb.co/ZKGWSpX/Screenshot-1.png" alt='forms-easy'/>
+              </div>
+              <h4>forms-easy</h4>
+              <div className='workButtons'>
+                <Button href={"https://forms-easy.com/"}>visit website</Button>
+            </div>
+            </WorkCard>
+            <WorkCard>
+              <h4>Analysis app </h4>
+              <div className='workButtons'>
+                <Button href={"https://gitlab.com/ghewazaloum/analysis-react.git"}>GitLab</Button>
+            </div>
+            </WorkCard>
            <WorkCard>
               <div className='imageDiv'>
                 <img className='image' src="https://i.ibb.co/jRJLfgM/sneak-Peak.png" alt='sneakPeak online shop'/>
