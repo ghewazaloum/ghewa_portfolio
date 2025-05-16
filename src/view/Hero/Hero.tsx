@@ -35,7 +35,7 @@ export function HeroSection() {
             Hi, I'm <span className="text-indigo-700">Ghewa Zaloum</span>
           </h1>
           <p className="text-gray-700 text-lg">
-            A passionate Front-End Developer building beautiful, responsive, and fast web interfaces using React, TypeScript, and Tailwind CSS.
+          A Front-End Developer who turns ideas into elegant, high-performance web experiences with React, TypeScript, and Tailwind CSS.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <Button className="px-6 py-3 text-base bg-indigo-700 text-white hover:bg-indigo-800 transition">

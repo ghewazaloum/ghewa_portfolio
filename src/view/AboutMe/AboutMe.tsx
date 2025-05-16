@@ -34,7 +34,7 @@ export function AboutSection() {
           <span className="absolute left-0 bottom-0 w-16 h-1 bg-indigo-600 rounded-full -mb-2"></span>
         </h2>
         <p className="text-gray-600 text-lg mb-14 leading-relaxed">
-          I’m <span className="font-semibold text-indigo-600">Ghewa Zaloum</span>, a Front-End Developer passionate about crafting beautiful, performant, and user-friendly web applications. I specialize in React, TypeScript, and Tailwind CSS, and love bringing designs to life with clean and maintainable code.
+          I’m <span className="font-semibold text-indigo-600">Ghewa Zaloum</span>, a dedicated Front-End Developer with a strong eye for design and detail. My passion lies in building fast, accessible, and user-friendly web applications. I thrive on translating complex problems into seamless interfaces using modern technologies like React, TypeScript, and Tailwind CSS. Whether it's refining UI interactions or optimizing performance, I focus on writing clean, scalable code that brings ideas to life.
         </p>
 
         <h3 className="text-2xl font-semibold text-indigo-600 mb-8">
